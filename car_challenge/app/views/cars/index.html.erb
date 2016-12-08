@@ -1,0 +1,11 @@
+<h1>Welcome to the Car Simulator</h1>
+<p>Find me in app/views/cars/index.html.erb</p>
+
+<%= @info %>
+
+<form action="/cars/create" method="get">
+  <input type="text" name="make" placeholder="Enter make"/>
+  <input type="text" name="model" placeholder="Enter model"/>
+  <input type="text" name="year" placeholder="Enter year"/>
+  <input type="submit"/>
+</form>
